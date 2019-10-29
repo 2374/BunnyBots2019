@@ -2,13 +2,18 @@ package frc.robot;
 
 public class RobotMap {
 
+	public static final double SPEED_ARM_LATERAL = 0.20;
+	public static final double SPEED_ARM_PIVOT = 0.20;
+
     public static final int DRIVETRAIN_FRONT_LEFT_PORT = 1;
     public static final int DRIVETRAIN_FRONT_RIGHT_PORT = 2;
     public static final int DRIVETRAIN_BACK_LEFT_PORT = 3;
 	public static final int DRIVETRAIN_BACK_RIGHT_PORT = 4;
 	
-	public static final int ARM_LEFT_PORT = 1;
-	public static final int ARM_RIGHT_PORT = 2;
+	public static final int ARM_LEFT_PIVOT = 1;
+	public static final int ARM_RIGHT_PIVOT = 2;
+	public static final int ARM_LEFT_LATERAL = 3;
+	public static final int ARM_RIGHT_LATERAL = 4;
     
     public static final int CONTROLLER_PORT = 1;
     public static final int CONTROLLER_LEFT_AXIS_X = 0;

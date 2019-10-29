@@ -1,4 +1,4 @@
-package frc.robot.commands;
+package frc.robot.command;
 
 import edu.wpi.first.wpilibj.command.Command;
 import frc.robot.Robot;
@@ -11,7 +11,7 @@ public class DrivetrainTeleop extends Command {
 
     @Override
     protected void execute() {
-        Robot.getDrivetrain().tankDrive(Robot.getOI().getJoystickLeftX(), Robot.getOI().getJoystickRightX());
+        Robot.getDrivetrain().tankDrive(Robot.getController().getJoystickLeftX(), Robot.getController().getJoystickRightX());
     }   
     
     @Override

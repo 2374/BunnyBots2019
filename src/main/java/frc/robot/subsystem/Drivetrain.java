@@ -5,7 +5,7 @@ import com.ctre.phoenix.motorcontrol.can.TalonSRX;
 
 import edu.wpi.first.wpilibj.command.Subsystem;
 import frc.robot.RobotMap;
-import frc.robot.commands.DrivetrainTeleop;
+import frc.robot.command.DrivetrainTeleop;
 
 public class Drivetrain extends Subsystem {
 
